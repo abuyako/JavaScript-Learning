@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Buld Project</h1>
+    <h1>Bulb Project</h1>
 
     <script>
         function light(sw){
             var pic;
             if (sw == 0){
-                pic = "1438374-light-bulb-light-bulb-png-260_260_preview.png";
+                pic = "picoff.png"
             }else {
-                pic = "picon.png";
+                pic = "picon.png"
             }
             document.getElementById('myImage').src = pic;
         }
     </script>
 
-    <img id="myImage" src="./1438374-light-bulb-light-bulb-png-260_260_preview.png" width="100" height="100">
+
+
+    <img id="myImage" src="./picoff.png" width="100" height="100">
+
     <p>
-        <button type="button" onclick="light(1)">Light On</button>
-        <button type="button" onclick="light(0)">Light Off</button>
+        <button type="button" onclick="light(1)">light On</button>
+        <button type="button" onclick="light(0)">light Off</button>
     </p>
 </body>
+
 </html>

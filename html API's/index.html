@@ -22,6 +22,9 @@
                 x.innerHTML = "Geolocation is not support by this browser.";
             }
         }
+        function showPosition(position){
+            x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+        }
     </script>
 </body>
 </html>

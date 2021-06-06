@@ -1,6 +1,9 @@
 .flex-container {
     display: flex;
     background-color: blue;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
 }
 .flex-container div {
     background-color: #f1f1f1;
